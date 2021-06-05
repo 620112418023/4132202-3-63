@@ -39,8 +39,8 @@ CREATE TABLE `tb_member` (
 --
 
 INSERT INTO `tb_member` (`member_id`, `member_name`, `member_sname`, `member_dob`) VALUES
-('1', 'name1', 'sname1', '2021-05-21'),
-('2', 'name2', 'sname2', '2021-05-20');
+('1', 'aaaa', '1111', '2021-03-11'),
+('2', 'bbbb', '2222', '2021-05-05');
 
 --
 -- Indexes for dumped tables

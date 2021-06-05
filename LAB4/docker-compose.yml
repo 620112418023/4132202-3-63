@@ -21,8 +21,9 @@ services:
         networks: 
             - default
     myadmin:
-            image: phpmyadmin/phpmyadmin
-            ports: 
+        image: phpmyadmin/phpmyadmin
+        ports: 
             - 8100:80
-            links: 
+        links: 
             - db:db
+            
